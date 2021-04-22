@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/Noice.png);
+
+  object-fit: fill;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: -2%;
+}
+
+.container {
+  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.sd {
+  margin-left: 10%;
+  width: 400px;
+  height: 550px;
+}
+.glide__arrow {
+  color: black;
+}
+.glide__arrow--left {
+  color: white;
+  margin-left: 5%;
+  margin-top: -10%;
+}
+.glide__arrow--right {
+  color: white;
+  margin-top: -10%;
+  margin-right: 9%;
+}
+
+.glide__slide img {
+  border-radius: 10%;
+}
+.col-md-4 h1 {
+  position: absolute;
+  color: white;
+  margin-left: 25%;
+  margin-top: 40%;
+  opacity: 1%;
+  transition: opacity 1s;
+}
+.col-md-4 {
+  transition: transform 0.2s;
+}
+.col-md-4:hover {
+  transform: scale(1.1);
+}
+.col-md-4 :hover {
+  opacity: 100%;
+}
+.para {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/white.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+figure {
+  margin: 0;
+  position: relative;
+}
+video {
+  width: 100%;
+  max-width: 100%;
+  height: vh;
+}
+.hero-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}
+.all {
+  margin-top: 25%;
+  opacity: 90%;
+  width: 100%;
+}
+
+a.coolBeans {
+  display: inline-block;
+  position: absolute;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  margin-top: 50%;
+  margin-left: 50%;
+  
+}
+a.coolBeanss:hover {
+   color: #000000;
+   background-color: #302727;
+}
